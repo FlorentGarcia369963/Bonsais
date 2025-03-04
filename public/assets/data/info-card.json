@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Découvrez l'Académie du Bonsaï",
+    "slug": "decouvrez-l-academie-du-bonsai",
+    "image": "academie.webp"
+  },
+  {
+    "id": 2,
+    "title": "Nos Cours",
+    "slug": "nos-cours",
+    "image": "cours.webp"
+  },
+  {
+    "id": 3,
+    "title": "Nos Bonsaïs",
+    "slug": "nos-bonsais",
+    "image": "bonsais.webp"
+  }
+]

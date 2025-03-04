@@ -1,0 +1,5 @@
+<ul class="grid grid-cols-6 gap-3 w-full">
+  <li *ngFor="let catalogCard of catalogCards" class="w-3/4 m-auto">
+    <app-product-card [product]="catalogCard"></app-product-card>
+  </li>
+</ul>

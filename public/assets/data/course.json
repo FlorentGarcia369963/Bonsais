@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Initiation au Bonsaï : Comprendre les Bases",
+    "difficulty": "Débutant",
+    "duration": "2 heures",
+    "price": 49,
+    "capacity": 25,
+    "description": "Découvrez l'histoire du bonsaï, ses styles et apprenez les bases de l'entretien.",
+    "teacher": "Sylvain Du Rif"
+  },
+  {
+    "id": 2,
+    "title": "Taille et Mise en Forme : L’Art du Design",
+    "difficulty": "Intermédiaire",
+    "duration": "3 heures",
+    "price": 79,
+    "capacity": 15,
+    "description": "Apprenez à structurer votre bonsaï grâce aux techniques de taille et de ligature.",
+    "teacher": "Robin Desbois"
+  },
+  {
+    "id": 3,
+    "title": "Rempotage et Substrats : Garantir la Santé de son Arbre",
+    "difficulty": "Tous niveaux",
+    "duration": "2h30",
+    "price": 59,
+    "capacity": 20,
+    "description": "Découvrez quand et comment rempoter, choisir le bon substrat et entretenir les racines.",
+    "teacher": "Sylvie Culture"
+  },
+  {
+    "id": 4,
+    "title": "Bonsaï d’Extérieur vs d’Intérieur : Soins Spécifiques",
+    "difficulty": "Débutant",
+    "duration": "2 heures",
+    "price": 49,
+    "capacity": 25,
+    "description": "Comprenez les différences entre les bonsaïs d'intérieur et d'extérieur et leurs besoins spécifiques.",
+    "teacher": "Zoé Corces"
+  },
+  {
+    "id": 5,
+    "title": "Créer un Bonsaï à partir d’un Arbre Jeune",
+    "difficulty": "Intermédiaire",
+    "duration": "4 heures",
+    "price": 99,
+    "capacity": 10,
+    "description": "Travaillez sur un jeune plant pour le transformer en un futur bonsaï unique.",
+    "teacher": "Thorin Écu-de-chêne"
+  },
+  {
+    "id": 6,
+    "title": "Perfectionnement : Vieillir et Sublimer son Bonsaï",
+    "difficulty": "Avancé",
+    "duration": "5 heures",
+    "price": 129,
+    "capacity": 30,
+    "description": "Techniques avancées de vieillissement, bois mort (Jin & Shari) et raffinement esthétique.",
+    "teacher": "Jean Racine"
+  }
+]

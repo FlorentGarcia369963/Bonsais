@@ -1,0 +1,14 @@
+<div class="flex gap-[10vw]">
+  <div>
+    <h1>L'académie du Bonsaï</h1>
+    <h2>Le savoir faire japonais, en France</h2>
+  </div>
+
+  <nav class="w-1/2">
+    <ul class="flex m-1 w-full justify-around">
+      <li *ngFor="let menuLink of menuLinks" class="p-1 m-1">
+        <a [href]="menuLink.link">{{ menuLink.title }}</a>
+      </li>
+    </ul>
+  </nav>
+</div>

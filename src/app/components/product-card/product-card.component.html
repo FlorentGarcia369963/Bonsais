@@ -1,0 +1,13 @@
+<div *ngIf="!product">Chargement du produit</div>
+<div *ngIf="product">
+  <article>
+    <a [routerLink]="['/produit', product.slug]">
+      <h3>{{ product.title }}</h3>
+      <img [src]="product.image" [alt]="product.title" />
+      <p>{{ product.latinName }}</p>
+      <p>{{ product.age }} ans</p>
+      <p>Dans le style {{ product.style }}</p>
+      <p>{{ product.price }}€</p>
+    </a>
+  </article>
+</div>

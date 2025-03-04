@@ -1,0 +1,47 @@
+<section class="h-[800px] mb-5">
+  <img
+    class="w-full h-full object-cover object-[5%_65%]"
+    src="banniere.webp"
+    alt="bannière"
+  />
+</section>
+<section>
+  <h2 class="text-3xl font-bold underline m-5">Présentation</h2>
+  <p>
+    Bienvenue à l'Académie du Bonsaï – votre espace dédié à l'art et à la
+    maîtrise du bonsaï. Nous croyons fermement que cet art millénaire est bien
+    plus qu'un simple passe-temps ; c'est un voyage de patience, de précision et
+    de connexion avec la nature. À l'Académie du Bonsaï, nous proposons des
+    cours et des ateliers pour tous les niveaux, des débutants aux passionnés
+    confirmés. Que vous soyez intéressé par l'entretien de vos premiers bonsaïs
+    ou que vous cherchiez à perfectionner votre technique, nos experts sont là
+    pour vous guider à chaque étape du processus. Nous offrons un environnement
+    propice à l’apprentissage, avec des formations pratiques et théoriques
+    adaptées à vos besoins. Nos bonsaïs sont sélectionnés avec soin pour vous
+    offrir des plantes de qualité, idéales pour la culture en pot et l’entretien
+    à long terme. En plus de nos cours, l'Académie du Bonsaï est aussi un lieu
+    d'échange et de partage où la communauté des passionnés se retrouve pour
+    discuter, échanger des conseils et célébrer ensemble la beauté de cet art.
+    Que vous soyez à la recherche de sérénité ou d'une nouvelle passion,
+    l'Académie du Bonsaï est l’endroit idéal pour commencer ou approfondir votre
+    expérience avec ces arbres fascinants.
+  </p>
+  <ul class="grid grid-cols-3 gap-3 w-full">
+    <li *ngFor="let infoCard of infoCards" class="w-3/4 m-auto">
+      <article>
+        <a [routerLink]="[infoCard.slug]">
+          <h3>{{ infoCard.title }}</h3>
+          <img src="{{ infoCard.image }}" alt="" />
+        </a>
+      </article>
+    </li>
+  </ul>
+</section>
+<section>
+  <h2 class="text-3xl font-bold underline m-5">Sélection du moment</h2>
+  <ul class="grid grid-cols-3 gap-3 w-full">
+    <li *ngFor="let selectionCard of selectionCards" class="w-3/4 m-auto">
+      <app-product-card [product]="selectionCard"></app-product-card>
+    </li>
+  </ul>
+</section>

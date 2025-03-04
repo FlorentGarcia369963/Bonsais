@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "title": "Chêne",
+    "slug": "chene",
+    "image": "catalog/chene.webp",
+    "latinName": "Quercus robur",
+    "style": "Moyogi",
+    "price": 899,
+    "age": 15,
+    "description": "Le Chêne est un arbre imposant qui symbolise la force et la durabilité. Il est souvent choisi pour la création de bonsaïs en raison de sa capacité à se ramifier de manière naturelle et de son tronc robuste. Utilisé dans le style Moyogi, il permet de réaliser des bonsaïs élégants avec des courbes douces, créant un effet de mouvement tout en conservant une certaine stabilité visuelle. Ce type de bonsaï peut devenir un véritable point focal dans n'importe quel jardin ou espace intérieur."
+  },
+  {
+    "id": 2,
+    "title": "Hêtre",
+    "slug": "hetre",
+    "image": "catalog/hetre.webp",
+    "latinName": "Fagus sylvatica",
+    "style": "Bunjin",
+    "price": 499,
+    "age": 30,
+    "description": "Le Hêtre est un arbre majestueux qui, avec ses longues feuilles vertes et sa croissance droite, est idéal pour le style Bunjin, qui se caractérise par des formes épurées et une grande simplicité. Il est parfaitement adapté pour des bonsaïs où l'accent est mis sur l'élévation du tronc, créant une silhouette allongée qui semble défier la gravité. Ce bonsaï met en valeur la beauté naturelle et la puissance tranquille du Hêtre, offrant une esthétique minimaliste mais très raffinée."
+  },
+  {
+    "id": 3,
+    "title": "Charme",
+    "slug": "charme",
+    "image": "catalog/charme.webp",
+    "latinName": "Carpinus betulus",
+    "style": "Chokkan",
+    "price": 1999,
+    "age": 20,
+    "description": "Le Charme est un arbre particulièrement apprécié des cultivateurs de bonsaïs pour sa capacité à créer des formes solides et équilibrées. Avec sa texture de bois fine et ses feuilles simples, il est parfait pour des bonsaïs du style Chokkan, où l'on recherche une structure rigide et verticale. Le Charme est idéal pour ceux qui souhaitent exprimer une beauté intemporelle, avec un tronc droit, de grandes racines apparentes et une ramification harmonieuse."
+  },
+  {
+    "id": 4,
+    "title": "Érable champêtre",
+    "slug": "erable-champetre",
+    "image": "catalog/erable.webp",
+    "latinName": "Acer campestre",
+    "style": "Neagari",
+    "price": 2399,
+    "age": 25,
+    "description": "L'Érable champêtre est un arbre résistant aux conditions difficiles et à l'environnement urbain. C'est un excellent choix pour le style Neagari, où l'on expose la base du tronc et permet aux racines d'être visibles. Sa couleur automnale, avec ses feuilles qui prennent des teintes de rouge et d'orange, en fait une plante spectaculaire lors des changements de saison. Ce type de bonsaï, avec ses racines apparentes et son tronc tortueux, crée une connexion puissante avec la nature."
+  },
+  {
+    "id": 5,
+    "title": "If",
+    "slug": "if",
+    "image": "catalog/if.webp",
+    "latinName": "Taxus baccata",
+    "style": "Jin/Shari",
+    "price": 5499,
+    "age": 30,
+    "description": "L'If est un arbre au bois dense et résistant, ce qui le rend parfait pour les bonsaïs où l'on applique des techniques de Jin et Shari. Ces techniques consistent à créer des parties de l'arbre qui ressemblent à du bois mort, exposant ainsi l'âme de l'arbre tout en lui donnant une forme dramatique et ancienne. L'If est un choix populaire pour les bonsaïs qui semblent avoir traversé les âges, créant un effet de mystère et d’histoire, tout en ajoutant une touche élégante à tout espace."
+  },
+  {
+    "id": 6,
+    "title": "Olivier",
+    "slug": "olivier",
+    "image": "catalog/olivier.webp",
+    "latinName": "Olea europaea",
+    "style": "Moyogi",
+    "price": 9999,
+    "age": 50,
+    "description": "L'Olivier, symbole de paix et de sagesse, est un arbre vénérable qui est parfait pour créer des bonsaïs dans le style Moyogi. Ce style présente des formes sinueuses et naturelles, souvent avec un tronc courbé qui donne une impression de mouvement. Les feuilles argentées de l'Olivier et son écorce rugueuse créent un contraste fascinant, tandis que sa longévité et sa beauté intemporelle en font un choix idéal pour les passionnés de bonsaï recherchant une pièce majestueuse et pleine de symbolisme."
+  },
+  {
+    "id": 7,
+    "title": "Pin noir du Japon",
+    "slug": "pin-noir-japon",
+    "image": "catalog/pin-noir.webp",
+    "latinName": "Pinus thunbergii",
+    "style": "Fukinagashi",
+    "price": 3299,
+    "age": 40,
+    "description": "Le Pin noir du Japon est un arbre résistant aux conditions climatiques difficiles, souvent utilisé dans les bonsaïs du style Fukinagashi. Ce style représente un arbre que le vent a façonné, avec des branches qui s'inclinent dans une direction, créant une silhouette dynamique et asymétrique. Le Pin noir du Japon, avec ses aiguilles fines et ses branches rigides, est parfait pour ce style, ajoutant à l'élégance et à la force de l'arbre."
+  },
+  {
+    "id": 8,
+    "title": "Orme de Chine",
+    "slug": "orme-chine",
+    "image": "catalog/orme-de-chine.webp",
+    "latinName": "Ulmus parvifolia",
+    "style": "Hokidachi",
+    "price": 749,
+    "age": 20,
+    "description": "L'Orme de Chine est un arbre délicat avec de petites feuilles qui peuvent créer une texture agréable et un feuillage dense. Il est souvent utilisé dans le style Hokidachi, où les branches sont formées pour ressembler à un balai ou un nuage. Ce style donne une forme élégante et équilibrée, parfaite pour un bonsaï qui capte l'attention tout en restant subtil. L'Orme de Chine est un arbre qui est aussi facile à cultiver, ce qui en fait un excellent choix pour les débutants en bonsaï."
+  },
+  {
+    "id": 9,
+    "title": "Cèdre du Liban",
+    "slug": "cedre-liban",
+    "image": "catalog/cedre-liban.webp",
+    "latinName": "Cedrus libani",
+    "style": "Shakan",
+    "price": 4599,
+    "age": 50,
+    "description": "Le Cèdre du Liban est un arbre imposant qui, grâce à ses racines profondes et sa silhouette majestueuse, est parfait pour le style Shakan, où le tronc penche sous l'effet du vent. Ce style crée une asymétrie qui met en valeur la résistance de l'arbre face aux intempéries. Le Cèdre du Liban est un symbole de force et de sagesse, avec une écorce rugueuse et une grande longévité, qui en font un bonsaï impressionnant."
+  },
+  {
+    "id": 10,
+    "title": "Épicéa commun",
+    "slug": "epicea-commun",
+    "image": "catalog/epicea.webp",
+    "latinName": "Picea abies",
+    "style": "Kengai",
+    "price": 1899,
+    "age": 35,
+    "description": "L'Épicéa commun est un arbre qui évoque la beauté des paysages de montagne, souvent utilisé pour créer des bonsaïs en cascade (style Kengai). Ses branches tombent avec grâce, donnant un effet de fluidité et de mouvement. Avec ses aiguilles fines et son écorce rugueuse, l'Épicéa commun est un excellent choix pour les amateurs de bonsaï cherchant à recréer l'apparence d'un arbre poussant à flanc de montagne, où la gravité influence la forme de l'arbre."
+  },
+  {
+    "id": 11,
+    "title": "Genévrier de Chine",
+    "slug": "genevrier-chine",
+    "image": "catalog/genevrier-chine.webp",
+    "latinName": "Juniperus chinensis",
+    "style": "Shari",
+    "price": 2899,
+    "age": 25,
+    "description": "Le Genévrier de Chine est un arbre résistant et flexible, parfait pour les techniques de Shari qui mettent en valeur le bois mort. Avec ses branches sinueuses et ses racines puissantes, il est possible de créer des bonsaïs qui semblent avoir traversé les siècles. L'utilisation de la technique Shari crée un aspect d'arbre ancien, brisé par le vent et le temps, ajoutant à son charme et sa puissance visuelle."
+  },
+  {
+    "id": 12,
+    "title": "Ginkgo biloba",
+    "slug": "ginkgo",
+    "image": "catalog/ginkgo-biloba.webp",
+    "latinName": "Ginkgo biloba",
+    "style": "Chokkan",
+    "price": 3999,
+    "age": 80,
+    "description": "Le Ginkgo biloba est un arbre ancien et rare, réputé pour ses feuilles en forme d'éventail qui prennent une couleur dorée magnifique en automne. Utilisé dans le style Chokkan, le Ginkgo crée des bonsaïs avec un tronc droit et une ramification harmonieuse. Cet arbre est un symbole de longévité et de résilience, et son apparence majestueuse en fait un choix idéal pour ceux qui recherchent un bonsaï classique, mais élégant."
+  },
+  {
+    "id": 13,
+    "title": "Zelkova du Japon",
+    "slug": "zelkova-japon",
+    "image": "catalog/zelkova-japon.webp",
+    "latinName": "Zelkova serrata",
+    "style": "Hokidachi",
+    "price": 999,
+    "age": 18,
+    "description": "Le Zelkova du Japon est un arbre au tronc droit et aux branches bien équilibrées, ce qui le rend idéal pour le style Hokidachi, où la forme en balai ou nuage est recherchée. Ce bonsaï offre une belle texture avec ses feuilles petites et dentelées, créant une silhouette élégante et aérée. C'est un arbre qui résiste bien aux conditions urbaines et qui est souvent choisi pour sa capacité à se cultiver facilement tout en restant esthétiquement agréable."
+  },
+  {
+    "id": 14,
+    "title": "Figuier commun",
+    "slug": "figuier-commun",
+    "image": "catalog/figuier.webp",
+    "latinName": "Ficus carica",
+    "style": "Neagari",
+    "price": 2499,
+    "age": 40,
+    "description": "Le Figuier commun est un arbre aux racines très apparentes, ce qui en fait un excellent choix pour les bonsaïs du style Neagari, où les racines sont exposées pour créer un effet visuel impressionnant. Avec ses grandes feuilles et son tronc tortueux, ce bonsaï peut donner l'impression d'être un arbre ancien qui a traversé les siècles. Le Figuier est également assez facile à cultiver, ce qui le rend populaire parmi les débutants."
+  },
+  {
+    "id": 15,
+    "title": "Bougainvillier",
+    "slug": "bougainvillier",
+    "image": "catalog/bougainvillier.webp",
+    "latinName": "Bougainvillea glabra",
+    "style": "Moyogi",
+    "price": 1299,
+    "age": 15,
+    "description": "Le Bougainvillier est un arbre à fleurs vibrant et coloré, idéal pour les bonsaïs du style Moyogi. Ce style, avec ses courbes douces et naturelles, met en valeur la beauté organique de l'arbre. Le Bougainvillier est réputé pour ses feuilles épaisses et ses fleurs en couleur intense, qui peuvent durer plusieurs mois. Sa forme aérienne et son feuillage décoratif en font un choix parfait pour ceux qui recherchent un bonsaï à la fois élégant et éclatant."
+  },
+  {
+    "id": 16,
+    "title": "Abricotier du Japon",
+    "slug": "abricotier-du-japon",
+    "image": "catalog/abricotier-japon.webp",
+    "latinName": "Prunus mume",
+    "style": "Bunjin",
+    "price": 3699,
+    "age": 30,
+    "description": "L'Abricotier du Japon est un arbre apprécié pour ses fleurs parfumées qui fleurissent en hiver, apportant une touche de fraîcheur à tout bonsaï. Dans le style Bunjin, l'Abricotier du Japon est un excellent choix pour des bonsaïs au tronc droit et aux branches élégantes. Ce style minimaliste fait ressortir la beauté de l'arbre dans sa simplicité, tout en mettant l'accent sur la force de son tronc et la grâce de sa ramification."
+  }
+]

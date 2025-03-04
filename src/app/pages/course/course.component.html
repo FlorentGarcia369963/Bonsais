@@ -1,0 +1,43 @@
+<section>
+  <h2 class="text-3xl font-bold underline m-5">Nos cours</h2>
+  <p>
+    Immersion unique dans l'art ancestral du jardinage japonais. À l'Académie du
+    Bonsaï, nous vous proposons une gamme complète de formations pour tous les
+    niveaux, allant de l'initiation à des techniques avancées. Que vous soyez
+    novice ou passionné cherchant à perfectionner votre art, nos cours sont
+    conçus pour répondre à vos besoins spécifiques. Nos cours sont animés par
+    des experts passionnés, prêts à partager leurs connaissances et leur
+    savoir-faire. De la culture des bonsaïs à leur entretien, chaque session est
+    une occasion d'apprendre tout en découvrant des pratiques respectueuses de
+    la nature. Voici un aperçu de ce que nous offrons : Nos formations se
+    déroulent dans des lieux exceptionnels, allant des montagnes du Vercors aux
+    bords du Verdon, en passant par les paysages enchâssés de Brocéliande.
+    Chaque environnement est choisi pour offrir à nos élèves une immersion
+    totale dans la culture japonaise et un cadre idéal pour l'apprentissage.
+    Avec des groupes de taille réduite, nous garantissons une attention
+    personnalisée à chaque participant. Vous repartirez avec des compétences
+    solides et une compréhension profonde de l'art du bonsaï, prêt à faire
+    fleurir votre propre collection. Rejoignez-nous à l'Académie du Bonsaï, là
+    où la passion rencontre la tradition et où chaque arbre raconte une
+    histoire.
+  </p>
+  <ul class="grid grid-cols-3 gap-3 w-full">
+    <li *ngFor="let courseCard of courseCards" class="w-3/4 m-auto">
+      <article>
+        <h3>{{ courseCard.title }}</h3>
+        <div class="flex">
+          <p>Difficulté: {{ courseCard.difficulty }}</p>
+          <p>Durée: {{ courseCard.duration }}</p>
+        </div>
+        <p>{{ courseCard.description }}</p>
+        <div class="flex">
+          <p>Limite: {{ courseCard.capacity }} personnes</p>
+          <p>Formateur: {{ courseCard.teacher }}</p>
+          <p>{{ courseCard.price }}</p>
+          <p>prochaine date:</p>
+        </div>
+        <button>Voir plus</button>
+      </article>
+    </li>
+  </ul>
+</section>

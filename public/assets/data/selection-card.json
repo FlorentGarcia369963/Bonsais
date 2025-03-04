@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Chêne",
+    "slug": "chene",
+    "image": "selection/chene.webp",
+    "latinName": "Quercus robur",
+    "style": "Moyogi",
+    "price": 899,
+    "age": 15
+  },
+  {
+    "id": 2,
+    "title": "Hêtre",
+    "slug": "hetre",
+    "image": "selection/hetre.webp",
+    "latinName": "Fagus sylvatica",
+    "style": "Bunjin",
+    "price": 499,
+    "age": 30
+  },
+  {
+    "id": 3,
+    "title": "Charme",
+    "slug": "charme",
+    "image": "selection/charme.webp",
+    "latinName": "Carpinus betulus",
+    "style": "Chokkan",
+    "price": 1999,
+    "age": 20
+  },
+  {
+    "id": 4,
+    "title": "Érable champêtre",
+    "slug": "erable-champetre",
+    "image": "selection/erable.webp",
+    "latinName": "Acer campestre",
+    "style": "Neagari",
+    "price": 2399,
+    "age": 25
+  },
+  {
+    "id": 5,
+    "title": "If",
+    "slug": "if",
+    "image": "selection/if.webp",
+    "latinName": "Taxus baccata",
+    "style": "Jin/Shari",
+    "price": 5499,
+    "age": 30
+  },
+  {
+    "id": 6,
+    "title": "Olivier",
+    "slug": "olivier",
+    "image": "selection/olivier.webp",
+    "latinName": "Olea europaea",
+    "style": "Moyogi",
+    "price": 9999,
+    "age": 50
+  }
+]
