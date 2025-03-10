@@ -1,11 +1,24 @@
-<div *ngIf="!product">Chargement en court</div>
-<div *ngIf="product">
-  <h1>{{ product.title }}</h1>
-  <img src="{{ product.image }}" alt="" />
-  <p>
-    {{ product.latinName }} dans le style {{ product.style }},
-    {{ product.age }} ans d'âge.'
-  </p>
-  <p>{{ product.description }}</p>
-  <p>Il est à vous pour la modique somme de {{ product.price }}€</p>
-</div>
+@if (product(); as product) {
+<section>
+  <div>
+    <h1>{{ product.title }}</h1>
+    <img src="{{ product.image }}" alt="" />
+    <p>
+      {{ product.latinName }} dans le style {{ product.style }},
+      {{ product.age }} ans d'âge.'
+    </p>
+    <p>{{ product.description }}</p>
+    <p>Il est à vous pour la modique somme de {{ product.price }}€</p>
+  </div>
+</section>
+
+<section>
+  @if (isInCart()){
+  <button (click)="removeFromCart(product)">Retirer du panier</button>
+  } @else {
+  <button (click)="addToCart(product)">Ajouter au panier</button>
+  }
+</section>
+}@else {
+<div>Chargement en cours</div>
+}

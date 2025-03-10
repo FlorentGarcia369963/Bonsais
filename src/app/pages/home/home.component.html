@@ -27,7 +27,8 @@
     expérience avec ces arbres fascinants.
   </p>
   <ul class="grid grid-cols-3 gap-3 w-full">
-    <li *ngFor="let infoCard of infoCards" class="w-3/4 m-auto">
+    @for (infoCard of infoCards; track infoCard.id) {
+    <li class="w-3/4 m-auto">
       <article>
         <a [routerLink]="[infoCard.slug]">
           <h3>{{ infoCard.title }}</h3>
@@ -35,13 +36,17 @@
         </a>
       </article>
     </li>
+    }
   </ul>
 </section>
 <section>
   <h2 class="text-3xl font-bold underline m-5">Sélection du moment</h2>
   <ul class="grid grid-cols-3 gap-3 w-full">
-    <li *ngFor="let selectionCard of selectionCards" class="w-3/4 m-auto">
+    @for (selectionCard of selectionCards; track selectionCard.id) {
+    <li class="w-3/4 m-auto">
       <app-product-card [product]="selectionCard"></app-product-card>
     </li>
+
+    }
   </ul>
 </section>
